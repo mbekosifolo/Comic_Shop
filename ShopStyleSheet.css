@@ -1,0 +1,32 @@
+﻿*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.nav-link:hover{
+    color: rgb(235, 136, 136);
+}
+
+.card{
+    background-color: rgb(226, 226, 226);
+}
+
+.card:hover{
+    transform: scale(1.05);
+ box-shadow: 0 10px 20px rgba(49, 49, 49, 0.2), 0 4px 8px rgba(145, 150, 146, 0.2);
+}
+
+.carousel:hover{
+    transform: scale(1.02);
+    box-shadow: 0 20px 20px rgba(0,0,0.2), 0 4px 8px rgba(0,0,0.2);
+}
+
+.carousel-caption{
+    background-color: rgb(122, 117, 117, 0.5);
+}
+
+.invLogo{
+    -webkit-filter: grayscale(1) invert(1);
+    filter: grayscale(1) invert(1);
+}
