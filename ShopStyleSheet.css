@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+.radialEffect{
+    background: transparent radial-gradient(at calc(var(--mouse-x, 0) * 100%) calc(var(--mouse-y, 0) * 100%), rgb(255, 255, 255), rgb(83, 83, 83)) no-repeat 0 0
+}
+
 .nav-link:hover{
     color: rgb(235, 136, 136);
 }
